@@ -1,0 +1,8 @@
+
+Steps -----
+1. Mongo DB install
+2. Mongo DB Connection
+3. Schema
+4. Model
+5. CRUP Operation
+
