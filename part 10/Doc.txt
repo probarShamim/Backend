@@ -1,0 +1,12 @@
+DATA BASE -> Collectoin -> Document -> Code
+
+
+Code                      Data Base
+----------------------------------------------------
+mongoose.connect   ->   Data Base Create
+model create       -> Collection
+CREATE code        -> Document
+
+
+
+
