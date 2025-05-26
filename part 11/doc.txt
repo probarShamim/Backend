@@ -6,3 +6,10 @@ Steps -----
 4. Model
 5. CRUP Operation
 
+
+
+create({
+  // Here given data acording to Schema
+})
+
+.findOneAndUpdate({findOne}, {up date thing}, {new: true});
