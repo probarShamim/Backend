@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EJS</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com/"></script>
+</head>
+<body>
+  <div class="w-full h-full bg-zinc-900 p-10 text-white min-h-screen">
+    <div class="nav mb-10">
+      <a class="text-blue-500" href="/read">Read Page</a>
+    </div>
+    <h1 class="text-3xl tracking-tighter mb-5">Create User</h1>
+    <form action="/create" method="post" >
+      <input class="px-5 py-2 border-2 outline-none border-zinc-800 rounded-lg bg-transparent" type="text" name="name" placeholder="Name" required>
+      <input class="px-5 py-2 border-2 outline-none border-zinc-800 rounded-lg bg-transparent" type="text" name="email" placeholder="Email" required>
+      <input class="px-5 py-2 border-2 outline-none border-zinc-800 rounded-lg bg-transparent" type="text" name="image" placeholder="Image Link" required>
+      <input class="px-5 py-2 outline-none bg-blue-600 rounded-lg cursor-pointer" type="submit" value="Create User">
+    </form>
+  </div>
+</body>
+</html>
